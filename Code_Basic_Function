@@ -1,3 +1,0 @@
-if (msg.payload === "on") msg.payload = {"service":"turn_on"}
-if (msg.payload === "off") msg.payload = {"service":"turn_off"}
-return msg
