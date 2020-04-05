@@ -22,16 +22,16 @@ msg.payload =
     data:
     {"rgb_color": msg.rgb, "brightness": msg.bri}
 };
-
-if (msg.colormode === "ct")
+if (msg.payload === "off") msg.payload = {
+    "service":"turn_off"
+};
+else if (msg.colormode === "ct")
 msg.payload =
 {
     "service": "turn_on",
     data:
     {"rgb_color": [254,254,254], "brightness": msg.bri}
-};
-
-if (msg.payload === "off") msg.payload = {"service":"turn_off"}
+}
 return msg
 ```
 
