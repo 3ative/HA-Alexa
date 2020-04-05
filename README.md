@@ -34,5 +34,6 @@ msg.payload =
 }
 return msg
 ```
+Alternatively, technowizard79 came up with this solution: https://github.com/technowizard79/Node-Red-Alexa-RGBW-Code
 
 <a href="https://www.buymeacoffee.com/3ative" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
