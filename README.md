@@ -35,6 +35,7 @@ msg.payload =
 return msg
 ```
 Alternatively, technowizard79 came up with this solution: https://github.com/technowizard79/Node-Red-Alexa-RGBW-Code
+
 ---
 ### 🤝 Found this useful, want to say 'Thanks' and support my efforts. CHEERS🍺
 | Buy me a Coffee | PATREON |
